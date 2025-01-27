@@ -1,13 +1,14 @@
 # Task Management API
 
 ## Overview
-The Task Management API is a web-based application built using ASP.NET Core that allows users to manage tasks, projects, comments , and notifications. It provides endpoints for creating, updating, deleting, and retrieving tasks, as well as assigning users to tasks and managing task statuses.
+The Task Management API is a web-based application built using ASP.NET Core that allows users to manage tasks, projects, comments, and notifications. It provides endpoints for creating, updating, deleting, and retrieving tasks, as well as assigning users to tasks and managing task statuses.
 
 ## Features
 - User authentication and authorization using JWT.
-- CRUD operations for tasks and projects.
+- CRUD operations for tasks, projects, comments, and tags.
 - Task assignment and status management.
 - Notification system for task updates.
+- Dashboard for overview and statistics.
 - Background job processing for sending notifications.
 
 ## Technologies Used
